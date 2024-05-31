@@ -8,12 +8,13 @@ import Layout from 'todomvc/components/layout';
 export default Route(
   <template>
     {{title "TodoMVC"}}
-<div {{didInsert @controller.trackPainted}}>Teste</div>
-    <Layout >
-      {{outlet}}
-    </Layout>
+    <div {{didInsert @controller.trackPainted}}>
+      <Layout >
+        {{outlet}}
+      </Layout>
 
-    <Attribution />
+      <Attribution />
+    </div>
   </template>
 )
 

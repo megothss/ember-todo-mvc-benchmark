@@ -28,7 +28,6 @@ export default class ApplicationController extends Controller {
 
   @action
   trackPainted() {
-    console.log("tracking")
     this.runAfterFramePaint(() => {
       performance.mark("paint");
 
