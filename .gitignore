@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# compiled output
+/dist/
+/declarations/
+>>>>>>> 78125ec (v5.1.0...v5.6.0)
 
 # dependencies
 /node_modules/
