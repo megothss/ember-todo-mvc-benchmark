@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Polymer/tachometer/master/config.schema.json",
+  "timeout": 5,
+  "sampleSize": 300,
+  "benchmarks": [
+    {
+      "measurement": {
+        "mode": "performance",
+        "entryName": "init-to-paint"
+      },
+      "browser": "chrome",
+      "expand": [
+        {
+          "url": "http://localhost:4205",
+          "name": "5.5"
+        },
+        {
+          "url": "http://localhost:4206",
+          "name": "5.6"
+        }
+      ]
+    }
+  ]
+}

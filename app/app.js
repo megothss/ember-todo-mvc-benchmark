@@ -19,4 +19,5 @@ export default class App extends Application {
 	Resolver = Resolver;
 }
 
+performance.mark("init");
 loadInitializers(App, config.modulePrefix);

@@ -12,7 +12,7 @@ module.exports = function (environment) {
 		 * These settings are required by todomvc's (the repo) tests
 		 * (And the deployed site -- using GH Pages to point at the pre-built assets in source)
 		 */
-		rootURL: '/examples/emberjs/todomvc/dist/',
+		rootURL: '',
 		locationType: 'history',
 		EmberENV: {
 			EXTEND_PROTOTYPES: false,
